@@ -25,21 +25,6 @@ Q8: What are the most frequently mentioned ingredients in positive and negative 
 Q9: Can we predict customer ratings based on review text using Machine Learning? (Dongxu)  
 Q10: Do customers rate products differently based on the retail channel (e.g., Sephora online vs. in-store purchases)? (Dongxu)
 
-## Methods  
-Data Cleaning:  
-Remove rows where Helpfulness is not numeric.  
-Drop rows that have too many missing values.  
-Remove non-ASCII characters from string fields.  
-Remove rows based on VALID_VALUES.  
-Remove rows where review_text or review_title are missing or empty.  
-
-VALID_VALUES = {  
-    'skin_tone': ['light', 'lightMedium', 'brown', 'tan', 'hazel', 'mediumTan', 'fairLight', 'fair', 'notSureST', 'deep'],  
-    'eye_color': ['brown', 'blue', 'hazel', 'green', 'notSureEC', 'normal', 'gray', 'black'],  
-    'skin_type': ['normal', 'oily', 'combination', 'dry', 'sensitive', 'notSureST'],  
-    'hair_color': ['black', 'brown', 'blonde', 'red', 'gray', 'brunette', 'auburn', 'notSureHC']  
-}  
-
 # Collaboration  
 https://docs.google.com/document/d/1LuVJXft_IeEYk-WAOxLsORHh8JaC4FTjLIUBgGXT_xQ/edit?tab=t.0#heading=h.arig54dmfdao  
 
